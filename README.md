@@ -1,5 +1,8 @@
 # AI-Based Weather Forecast Visualization
 
+![Weather Image](https://connected-environments.org/wp-content/uploads/2023/12/image.jpeg_20231216122052.jpeg)
+
+
 ## Introduction
 
 The Met Office, as the national meteorological service for the United Kingdom, provides valuable weather data through its API called DataPoint. This API caters to a wide range of users, including professionals, scientists, students, and amateur developers. One of its notable features is the availability of text-based regional weather forecasts.
@@ -26,7 +29,6 @@ Leveraging OpenAI’s DALL·E 3 model, we generate an image based on the provide
 
 Finally, we upload the generated image to an FTP server for public access. We run the script every 12 hours (ours runs on a Raspberry Pi) with the images archived on the webserver. Below is a gallery showing some of the images from the last few months:
 
-![https://connected-environments.org/wp-content/uploads/2023/12/image.jpeg_20231216122052.jpeg](#)  <!-- Replace # with actual image URL -->
 
 
 This integration of AI technologies with environmental data opens new avenues for creative and practical applications. Whether for educational purposes, professional settings, or personal projects, the potential to visualize weather forecasts vividly brings a new dimension to data interpretation and usage.
